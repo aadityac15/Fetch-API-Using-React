@@ -1,0 +1,49 @@
+.listClass {
+background-color: rgb(81, 117, 153);
+color : black;
+overflow-y:auto;
+height: 800px;
+margin-top: 60px;
+margin-bottom: 240px;
+border: 0ch;
+
+/* align-content:  center */
+}
+input[type=text]  {
+    width: 60%;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 20%;
+    background-color: azure;
+    padding: 20px;
+    margin: 8px 0;
+    /* box-sizing: border-box; */
+
+  }
+
+.divClass {
+    background-color: floralwhite;
+    width: 80%;
+    height : 70%;
+    border: 3px solid rgb(0, 2, 0);
+    padding: 20px;
+    margin: 20px;
+    align-items: center
+}
+
+img {
+    border-radius: 50%;
+    background-color: lightblue
+  }
+
+.classK {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    width : 400px
+}
