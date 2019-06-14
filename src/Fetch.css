@@ -2,14 +2,21 @@
 background-color:white;
 color : black;
 overflow-y:auto;
-/* overflow: hidden; */
+overflow-y: scroll;
+scrollbar-width: none; /* Firefox */
+-ms-overflow-style: none;  /* IE 10+ */
+border-radius: 10px;
 height:500px;
 width: 700px;
 margin-top: 10%;
 margin-bottom: 75%;
 border: 0ch;
 padding: 0px;
+}
 
+.listClass :: -webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
 .h1tag {
     margin-bottom: 0;
