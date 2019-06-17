@@ -1,74 +1,88 @@
 .listClass {
-background-color:white;
-color : black;
-overflow-y:auto;
-overflow-y: scroll;
-scrollbar-width: none; /* Firefox */
--ms-overflow-style: none;  /* IE 10+ */
-border-radius: 10px;
-height:500px;
-width: 700px;
-margin-top: 10%;
-margin-bottom: 75%;
-border: 0ch;
-padding: 0px;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 75%;
+    border-radius: 20px;
+    widows: 100%;
+    border: 0ch;
+    padding: 0px;
 }
 
-.listClass :: -webkit-scrollbar { /* WebKit */
-    width: 0;
-    height: 0;
+.displayTags {
+    flex-wrap: wrap;
+    border: 0.5px lightgrey solid;
+    margin-left: 5px;
+    background-color: lightgrey;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
+
+.innerListClass {
+    overflow-y: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+    border-radius: 10px;
+    height: 700px;
+    width: 100%;
+    margin-top: 0%;
+}
+
 .h1tag {
     margin-bottom: 0;
 }
+
 .classK {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start; 
+    align-items: flex-start;
     font-size: 0.75em;
-    
+    width: 600px;
+    padding-block-start: 0px;
 }
+
+.divTags {
+    display: flex;
+    flex-wrap: wrap
+}
+
 .divClass {
     background-color: white;
     width: 100%;
-    height : 70%;
+    height: 70%;
     border-bottom: 1px solid rgb(205, 207, 205);
     padding: 0px;
     padding-block-start: 0em;
-    margin: 0px ;
-   
+    margin: 0px;
 }
 
- /* .divClass td {
-    flex-direction: column;
-    display: flex;
-    align-items: flex-start;
- } */
-input[type=text]  {
-    width: 60%;
+table {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
     padding: 20px;
-    margin: 8px 0;
+    /* margin: 8px 0; */
+    margin-top: 0px;
+    margin-bottom: 0px;
     box-sizing: border-box;
-  }
-
-  button {
-    width: 20%;
-    background-color: azure;
-    padding: 20px;
-    margin: 8px 0;
-  }
-
-  /* b {
-      font-size : px;
-  } */
-
+    border: none;
+    border-bottom: 1px lightgray solid;
+}
 
 img {
     border: 2px solid lightgray;
+    padding: 0px;
     border-radius: 50%;
     background-color: white;
-  }
+}
 
 ul {
     padding-inline-start: 0em;
